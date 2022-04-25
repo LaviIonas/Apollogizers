@@ -1,0 +1,128 @@
+body, html {
+  font-family: monospace;
+  margin: 0;
+  height: 100%;
+  width:100%;
+  background-image: url("./flower.jpeg");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: center;
+  position: absolute;
+}
+
+#front-img {
+  background-image: url("./flower.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-1;
+  align-items: center;
+
+}
+
+#group-container {
+  background-color: rgba(255, 235, 204, 0.5);
+  position: relative;
+  width: 50%;
+  height: 50%;
+  text-align:center;
+  margin: 0 auto;
+  transform: translateY(50%);
+
+}
+
+#inner-container {
+  width: 60%;
+  height: 50%;
+  background-color: rgba(255, 235, 204, 0.75);
+  text-align:center;
+  position: relative;
+  margin: 0 auto;
+  bottom: 0;
+  transform: translateY(50%);
+}
+
+#group-name {
+  font-size: 40px;
+  position: relative;
+  top: 40%;
+
+}
+
+.header {
+  background-color:  #722d3b;
+  color: black;
+  overflow: hidden;
+  height: 50px;
+}
+
+.header #links {
+  text-align: center;
+  transform: translateY(65%);
+}
+
+.header #links a {
+  align-items: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.header a:hover {
+  background-color: #66464c;
+  color: black;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.info-container {
+  text-align: center;
+  background-color: rgba(255, 235, 204, 0.5);
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 30px;
+}
+
+#home {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.info-container-inner {
+  width: 90%;
+  height: 50%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: rgba(255, 235, 204, 0.75);
+  text-align:center;
+  /* position: relative; */
+  margin: 0 auto;
+}
+
+
+div.polaroid {
+  width: 50%;
+  display: inline-block;
+  padding-top: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+#footer {
+  background-color: ;
+}
